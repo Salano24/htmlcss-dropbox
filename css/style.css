@@ -11,13 +11,13 @@
     clear: both;
 }
  .container{
-    width: 80%;
+    width: 70%;
     max-width: 1200px;
     margin: auto ;
  }
 
  .container_sm{
-    width: 60%;
+    width: 50%;
     max-width: 1200px;
     margin: auto ;
  }
@@ -26,6 +26,10 @@
     display: flex;
     flex-wrap: wrap;
 
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 /* #endregion ASSETS */
 
@@ -181,7 +185,7 @@ h1{
     height: 145px;
     
 }
-.supporto{
+.contatta{
     background-color: #B4D0E7;
     height: 145px;
 }
@@ -307,6 +311,83 @@ h1{
   }
 
 /* #endregion LOGHI */
+
+/* #region PROVA GRATUITA */
+.light_background_small{
+    height: 240px ;
+    margin-top: 530px;
+    background-color: aqua;
+}
+
+.prova_gratuita{
+    padding-top: 85px;
+}
+
+.prova_gratuita button{
+    float: right;
+}
+
+.prova_gratuita h2{
+    float: left;
+}
+
+/* #endregion PROVA GRATUITA */
+
+/* #region DOMANDE FREQUENTI */
+.domande_frequenti{
+    margin-top: 105px;
+    margin-bottom: 100px ;
+}
+
+.domande_frequenti h2 {
+ border-bottom: 2px solid #C3C3C3;
+ padding-bottom: 42px;
+}
+
+.domande_frequenti p{
+    border-bottom: 2px solid  #C3C3C3;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+ /* #endregion DOMANDE FREQUENTI */
+
+ /* #endregion MAIN */
+
+/* #region FOOTER */
+
+.background_dark{
+    background-color: black;
+    color: white;
+}
+
+.navigazione{
+    padding-top: 72px ;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.navigazione h3{
+    margin-bottom:20px ;
+}
+
+.dropbox_foot, .prodotti, .azienda, .supporto{
+    line-height: 30px;
+}
+
+.navigazione div{
+    display: inline-block;
+}
+
+.lingua{
+    border-top: 1px solid white;
+    width:100px ;
+    padding: 35px 0;
+}
+
+
+/* #endregion FOOTER */
 
 /* #region DIVISIONI */
 .col-4{
