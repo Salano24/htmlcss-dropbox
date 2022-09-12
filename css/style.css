@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+ .container{
+    width: 70%;
+    max-width: 1200px;
+    margin: auto ;
+ }
+/* #region HEAD */
+header .debug{
+    height: 53px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
+}
+
+.nav .debug{
+    background-color: blue;
+    height: 25px ;
+    width: 450px;
+    padding: 0 ;
+}
+
+/* #endregion HEAD */
+
+/* #region MAIN */
+
+.light_background{
+ background-color:#B4D0E7 ;
+ height: 495px ;
+ padding-top: 60px;
+
+
+}
+
+.light_background .debug{
+    background-color: #7370C3 ;
+    height: 435px;
+    width: 50%;
+}
+
+.introduzione .debug{
+    height: 285px;
+    background-color: blue;
+    display: inline-block;
+
+}
+
+
+.proposta{
+    float: right;
+
+    
+}
+
+h1{
+    font-size: 53px;
+    padding-bottom: 30px;
+}
+
+.blue_button{
+    margin: 20px 0;
+}
+
+.arrow{
+    font-size: 26px;
+    margin-top: 20px;
+}
