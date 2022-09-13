@@ -80,7 +80,7 @@ header .debug{
 }
 
 .light_background .debug{
-    height: 435px;
+    height: 70vh;
     
 }
 
@@ -97,9 +97,12 @@ header .debug{
 }
 
 .proposta{
-    float: right;
-    
-    
+   display: inline-block;
+}
+
+.jumbo{
+    display: flex;   
+    justify-content: space-between;  
 }
 
 h1{
@@ -170,12 +173,11 @@ h1{
 }
 
 .fatt{
-    margin-left: 30px;
+    margin-left: 5vw;
 }
 
 .piano_buisness{
-    margin-top:110px ;
-    margin-bottom:95px ;
+    margin-bottom:15vh ;
 }
 
 .professional{
@@ -373,7 +375,7 @@ h1{
 
 /* #region OPERAZIONI */
 .operazioni{
-    margin-top: 100px;  
+    margin-top: 10vh;  
  
 }
 
@@ -612,19 +614,19 @@ h1{
 
 /* #region DOMANDE FREQUENTI */
 .domande_frequenti{
-    margin-top: 105px;
-    margin-bottom: 100px ;
+    margin-top: 10vh;
+    margin-bottom: 10vh ;
 }
 
 .domande_frequenti h2 {
  border-bottom: 2px solid #C3C3C3;
- padding-bottom: 42px;
+ padding-bottom: 4vh;
 }
 
 .domande_frequenti p{
     border-bottom: 2px solid  #C3C3C3;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
 }
 
 .dropdown_arrow{
@@ -670,18 +672,18 @@ h1{
 }
 
 .navigazione{
-    padding-top: 72px ;
+    padding-top: 7vh ;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 80px;
+    padding-bottom: 7vh;
 }
 
 .navigazione h3{
-    margin-bottom:20px ;
+    margin-bottom:2vh ;
 }
 
 .dropbox_foot, .prodotti, .azienda, .supporto{
-    line-height: 30px;
+    line-height: 5vh;
 }
 
 .navigazione div{
@@ -690,8 +692,8 @@ h1{
 
 .lingua{
     border-top: 1px solid #C3C3C3;
-    width:100px ;
-    padding: 35px 0;
+    width:10vw ;
+    padding: 3.5vh 0;
     color: #C3C3C3;
 }
 
