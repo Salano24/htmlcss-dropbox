@@ -628,9 +628,13 @@ h1{
 }
 
 .dropdown_arrow{
-    padding-left: 20vw;
+    position: absolute;
+    right: 2vw;
 }
 
+.domande{
+    position: relative;
+}
 .risposte{
     display: none;
 }
@@ -646,6 +650,13 @@ h1{
 
 .domande:hover{
     border-bottom: 0;
+    
+    
+}
+
+.domande:hover .dropdown_arrow{
+    transform: rotate(180deg);
+    
 }
  /* #endregion DOMANDE FREQUENTI */
 
