@@ -11,13 +11,13 @@
     clear: both;
 }
  .container{
-    width: 70%;
+    width: 90%;
     max-width: 1200px;
     margin: auto ;
  }
 
  .container_sm{
-    width: 50%;
+    width: 70%;
     max-width: 1200px;
     margin: auto ;
  }
@@ -35,8 +35,7 @@ body{
 
 /* #region HEAD */
 header .debug{
-    height: 53px;
-    background-color: red;
+    height: 7vh;   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,11 +43,20 @@ header .debug{
 
 }
 
+.info img{
+    height: 3vh;
+}
 .nav .debug{
-    background-color: blue;
-    height: 25px ;
-    width: 450px;
+    font-size:0.7rem ;
+   width: 60vh;
     padding: 0 ;
+}
+
+.contatti button{
+    color: white;
+    background-color:#0061FF;
+    border: 0;
+    padding: 0.2rem 0.5rem;
 }
 
 /* #endregion HEAD */
@@ -59,45 +67,58 @@ header .debug{
 
 .light_background{
  background-color:#B4D0E7 ;
- height: 495px ;
- padding-top: 60px;
+ padding-top: 10vh;
+ padding-bottom: 1rem;
 
 
 }
 
 .light_background .debug{
-    background-color: #7370C3 ;
     height: 435px;
     
 }
 
 .introduzione .debug{
-    height: 285px;
-    background-color: blue;
+
     display: inline-block;
     width: 50%;
-
+    
 }
 
+.prova_gratuita{
+    margin-top: 6vh;
+    font-size: 0.8rem;
+}
 
 .proposta{
     float: right;
-
+    
     
 }
 
 h1{
-    font-size: 53px;
-    padding-bottom: 30px;
+    
+    font-size: 4rem;
+    
 }
 
 .blue_button{
-    margin: 20px 0;
+    margin: 1.4rem 0;
+    color: white;
+    background-color: #0061FF;
+    border: 0;
+    padding: 0.5rem 0.8rem;
 }
 
 .arrow{
-    font-size: 26px;
-    margin-top: 20px;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    
+}
+
+.proposta img{
+    height: 48vh;
+    margin-top: 6vh;
 }
 
 /* #endregion INTRODUZIONE */
@@ -106,8 +127,8 @@ h1{
 .fatt::before {
     content: '';
     display: inline-block;
-    width: 13px;
-    height: 13px;
+    width: 11px;
+    height: 11px;
     -moz-border-radius: 7.5px;
     -webkit-border-radius: 7.5px;
     border-radius: 7.5px;
@@ -119,8 +140,8 @@ h1{
 .fatt_selezionato::before {
     content: '';
     display: inline-block;
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
     -moz-border-radius: 7.5px;
     -webkit-border-radius: 7.5px;
     border-radius: 7.5px;
@@ -130,8 +151,16 @@ h1{
 
 }
 
+.fatturazione h2{
+    font-size: 2rem;
+    margin-bottom: 5vh;
+}
+
+
+
 .fatturazione{
-    margin-bottom:35px ;
+    margin-top: 26vh ;
+    margin-bottom:5vh;
 }
 
 .fatt{
@@ -143,17 +172,77 @@ h1{
     margin-bottom:95px ;
 }
 
-.piano_buisness h2{
-    margin-bottom:45px ;
-}
-
-
-
 .professional{
-    padding: 0 20px;
-    height: 642px ;
-    background-color: red; 
+    padding: 0.5rem 1.4rem;
+    font-size: 0.8rem;
+    border: 1px solid #C3C3C3;
+    
+    
 }
+
+.gruppo{
+    border-bottom: 1px solid #C3C3C3;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.professional h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
+.tariffa{
+    margin-bottom: 2.5rem;  
+}
+
+.prezzo_piani{
+    font-size: 0.6rem;
+}
+
+.numero_utenti, .archiviazione, .condivisione{
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.pagamento{
+    color: #AAACB0;
+}
+
+.blue_button_piani{
+  color: white;
+  background-color: #0061FF;
+  padding: 0.5rem 3rem;
+  border: 0;
+  margin-right: 0;
+}
+
+.centre_button{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.grey_border{
+    border-bottom: 1px solid #C3C3C3;
+    margin-right: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.acquista_ora{
+    color: #4F53F3;
+}
+
+.punti_salienti{
+    margin-top: 4rem;   
+}
+
+.last_point{
+    margin: 1rem 0;
+}
+
+.punti_salienti i{
+    color: #0061FF;
+}
+
 
 .avanced{
     height: 642px ;
@@ -168,7 +257,8 @@ h1{
 }
 
 .piani{
-    margin-bottom: 35px;
+    margin-bottom: 5vh ;
+    justify-content: space-between;
 }
 
 .ufficio_vendite{
@@ -242,92 +332,92 @@ h1{
 
 .designt{
    position: absolute;
-   height: 215px ;
-   width: 215px;
+   height:25vh ;
+   width: 16.6vw;
    background-color: red;
 }
 
 .asu{
     position: absolute;
-    height: 215px ;
-    width: 215px;
+    height:25vh ;
+    width: 16.6vw;
     background-color: rgb(45, 167, 34);
-    left: 215px;
+    left: 16.6vw;
  }
  .uf{
     position: absolute;
-    height: 215px ;
-    width: 215px;
+    height:25vh ;
+    width: 16.6vw;
     background-color: rgb(34, 22, 128);
-    top: 215px;
+    top:25vh;
  }
  .topps{
     position: absolute;
-    height: 215px ;
-    width: 215px;
+    height:25vh ;
+    width: 16.6vw;
     background-color: rgb(216, 195, 35);
-    top: 215px;
-    left: 215px;
+    top:25vh;
+    left: 16.6vw;
  }
 
  .designt_big{
     position: absolute;
-    height: 430px ;
-    width: 515px;
+    height: 50vh ;
+    width: 33vw;
     background-color: rgb(90, 89, 88);
-    left: 430px;
+    left: 33.2vw;
 
  }
  .hearst{
     position: absolute;
-    height: 215px ;
-    width: 215px;
+    height:25vh ;
+    width: 16.6vw;
     background-color: red;
     right: 0;
  }
  
  .bicycle{
      position: absolute;
-     height: 215px ;
-     width: 215px;
+     height:25vh ;
+     width: 16.6vw;
      background-color: rgb(45, 167, 34);
-     right: 215px;
+     right: 16.6vw;
   }
   .channel{
      position: absolute;
-     height: 215px ;
-     width: 215px;
+     height:25vh ;
+     width: 16.6vw;
      background-color: rgb(34, 22, 128);
-     top: 215px;
+     top:25vh;
      right: 0;
   }
   .planet{
      position: absolute;
-     height: 215px ;
-     width: 215px;
+     height:25vh ;
+     width: 16.6vw;
      background-color: rgb(216, 195, 35);
-     top: 215px;
-     right: 215px;
+     top:25vh;
+     right: 16.6vw;
   }
 
 /* #endregion LOGHI */
 
 /* #region PROVA GRATUITA */
 .light_background_small{
-    height: 240px ;
-    margin-top: 530px;
+    height: 32vh ;
+    margin-top: 63vh;
     background-color: aqua;
 }
 
-.prova_gratuita{
+.prova_gratuita_bottom{
     padding-top: 85px;
 }
 
-.prova_gratuita button{
+.prova_gratuita_bottom button{
     float: right;
 }
 
-.prova_gratuita h2{
+.prova_gratuita_bottom{
     float: left;
 }
 
@@ -350,6 +440,22 @@ h1{
     padding-top: 30px;
 }
 
+.risposte{
+    display: none;
+}
+
+.domande_frequenti div{
+  border-bottom: 1px solid #C3C3C3;
+  padding: 2rem 0;
+}
+
+.domande:hover  .risposte{
+ display: inline-block;
+} 
+
+.domande:hover{
+    border-bottom: 0;
+}
  /* #endregion DOMANDE FREQUENTI */
 
  /* #endregion MAIN */
@@ -390,12 +496,17 @@ h1{
 /* #endregion FOOTER */
 
 /* #region DIVISIONI */
-.col-4{
-    width: calc(100% / 12 * 4 );
+.col-3{
+    width: calc(100% / 12 * 3 );
 }
 .col-8{
     width: calc(100% / 12 * 8 );
 }
+
+.col-3_plus{
+    width: calc(100% / 12 * 3 + 7vh );
+}
+
 
 /* #endregion DIVISIONI */
 
