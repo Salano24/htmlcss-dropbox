@@ -216,6 +216,14 @@ h1{
   margin-right: 0;
 }
 
+.blue_button_contattaci{
+    color: white;
+    background-color: #0061FF;
+    padding: 1rem 3rem;
+    border: 0;
+    margin-right: 0;
+  }
+
 .centre_button{
     text-align: center;
     margin: 1.5rem 0;
@@ -245,14 +253,28 @@ h1{
 
 
 .avanced{
-    height: 642px ;
-    background-color: rgb(111, 0, 255);
+    padding: 0.5rem 1.4rem;
+    font-size: 0.8rem;
+    border: 1px solid #C3C3C3;
+    
+}
 
+.avanced h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
 }
 
 .enterprise{
-    height: 642px ;
-    background-color: rgb(0, 255, 34);
+    padding: 0.5rem 1.4rem;
+    font-size: 0.8rem;
+    border: 1px solid #C3C3C3;
+     
+}
+
+.enterprise h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -262,66 +284,131 @@ h1{
 }
 
 .ufficio_vendite{
-    background-color: aqua;
-    height: 175px;
+    
     text-align: center;
-}
-.team{
-     font-size: 30px;
-     
-}
-.soluzioni{
-    background-color: aquamarine;
-    height: 145px;
+    border: 1px solid #C3C3C3;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
     
 }
-.contatta{
-    background-color: #B4D0E7;
-    height: 145px;
+
+.ufficio_vendite h2, .ufficio_vendite h3, .ufficio_vendite p{
+    padding-left: 2.5rem;
 }
+.team{
+     font-size: 0.8rem;
+     padding-top: 1rem;
+}
+
+.ufficio_vendite h2{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.ufficio_vendite h3{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.ufficio_vendite p{
+    font-size: 0.6rem;
+    margin-top: 1rem;
+
+}
+
+.contatta button{
+    margin-top: 1rem;
+    color: white;
+    background-color: #0061FF;
+    border: 0;
+    padding: 0.6rem 2rem;
+}
+
+.soluzioni{
+    text-align: start;
+    
+}
+
 /* #endregion PIANO BUISNESS */
 
 /* #region PARTNER */
-.partner{
-    height: 350px;
-    background-color: grey;
+.partner img{
+    height: 25rem;
+    width: 35rem;
+}
+.uomini{
+    display: inline-block;
+}
+.contatto{
+    float: right; 
+    width: 40%;
+    padding:2rem ;
 }
 
-.contatto{
-    float: right;
-    background-color: bisque;
-    height: 350px;
-    width: 40%;
+.contatto h2{
+    margin-bottom: 2rem;
+}
+
+.contatto p{
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+
+}
+
+.contatto button{
+    background-color: white;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    border-top: 2px solid rgb(203, 203, 203);
+    padding: 0.5rem 1rem;
 }
 /* #endregion PARTNER */
 
 /* #region OPERAZIONI */
 .operazioni{
-    margin-top: 100px;   
+    margin-top: 100px;  
+ 
 }
 
-.attivita_quotidiane{
-    height:312px ;
-    background-color: antiquewhite;
+.attivita_quotidiane img{
+    height: 30vh;
+    
+}
+.attivita_quotidiane p{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.attivita_quotidiane h3{
+    margin-bottom: 1.5rem;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .operazioni h2{
-    margin-bottom: 60px ;
+    margin-bottom: 3rem ;
 }
 /* #endregion OPERAZIONI */
 
 /* #region CLIENTI */
 
-.clienti{
-    height:160px ;
-    background-color: #B4D0E7;
-    margin-top: 140px;
-    margin-bottom: 100px;
+.clienti{ 
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 
 }
 
+.clienti h2{
+ font-size: 3rem;
+}
+
 .link_clienti{
-  margin-top: 110px;
+  margin-top: 5rem;
 }   
 /* #endregion CLIENTI */
 
@@ -417,10 +504,9 @@ h1{
     float: right;
 }
 
-.prova_gratuita_bottom{
-    float: left;
+.prova_gratuita_bottom h2{
+    display: inline-block;
 }
-
 /* #endregion PROVA GRATUITA */
 
 /* #region DOMANDE FREQUENTI */
@@ -504,7 +590,7 @@ h1{
 }
 
 .col-3_plus{
-    width: calc(100% / 12 * 3 + 7vh );
+    width: calc(100% / 12 * 3 + 8vh );
 }
 
 
