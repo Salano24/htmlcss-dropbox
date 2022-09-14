@@ -37,6 +37,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 /* #endregion ASSETS */
 
 /* #region HEAD */
@@ -65,6 +69,18 @@ header .debug{
     padding: 0.2rem 0.5rem;
 }
 
+.inizia:hover {
+    box-shadow: 0 0 5px black;
+    background-color: #4988ee;
+    color: black;
+    cursor: pointer;
+}
+
+.nav_head:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* #endregion HEAD */
 
 /* #region MAIN */
@@ -74,7 +90,7 @@ header .debug{
 .light_background{
  background-color:#B4D0E7 ;
  padding-top: 10vh;
- padding-bottom: 1rem;
+ 
 
 
 }
@@ -119,9 +135,18 @@ h1{
     padding: 0.5rem 0.8rem;
 }
 
+.blue_button:hover{
+    box-shadow: 0 0 5px black;
+    background-color: #4988ee;
+    color: black;
+    cursor: pointer;
+}
+
 .arrow{
     font-size: 2.5rem;
-    margin-top: 2rem;
+    margin-top: 7vh;
+    cursor: pointer;
+    color: black;
     
 }
 
@@ -129,6 +154,8 @@ h1{
     height: 48vh;
     margin-top: 6vh;
 }
+
+
 
 /* #endregion INTRODUZIONE */
 
@@ -224,12 +251,26 @@ h1{
   margin-right: 0;
 }
 
+.blue_button_piani:hover{
+    box-shadow: 0 0 5px black;
+    background-color: #4988ee;
+    color: black;
+    cursor: pointer;
+}
+
 .blue_button_contattaci{
     color: white;
     background-color: #0061FF;
     padding: 1rem 3rem;
     border: 0;
     margin-right: 0;
+  }
+
+  .blue_button_contattaci:hover{
+    box-shadow: 0 0 5px black;
+    background-color: #4988ee;
+    color: black;
+    cursor: pointer;
   }
 
 .centre_button{
@@ -245,6 +286,11 @@ h1{
 
 .acquista_ora{
     color: #4F53F3;
+    text-decoration: none;
+}
+
+.acquista_ora:hover{
+    text-decoration: underline;
 }
 
 .punti_salienti{
@@ -324,13 +370,22 @@ h1{
 
 }
 
-.contatta button{
+.ufficio_vendite_bt{
     margin-top: 1rem;
     color: white;
     background-color: #0061FF;
     border: 0;
     padding: 0.6rem 2rem;
 }
+
+.ufficio_vendite_bt:hover{
+    box-shadow: 0 0 5px black;
+    background-color: #4988ee;
+    color: black;
+    cursor: pointer;
+}
+
+
 
 .soluzioni{
     text-align: start;
@@ -363,14 +418,25 @@ h1{
 
 }
 
-.contatto button{
+.partner_bt{
     background-color: white;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     border-right: 1px solid black;
     border-top: 2px solid rgb(203, 203, 203);
     padding: 0.5rem 1rem;
+    font-size: 0.8rem;
 }
+
+.partner_bt:hover{
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px black;
+    border: 0;
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+
 /* #endregion PARTNER */
 
 /* #region OPERAZIONI */
@@ -418,6 +484,16 @@ h1{
 .link_clienti{
   margin-top: 5rem;
 }   
+
+.link{
+    color: #4F53F3;
+    text-decoration: none;
+}
+
+.link:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
 /* #endregion CLIENTI */
 
 /* #region LOGHI */
@@ -610,6 +686,14 @@ h1{
     display: inline-block;
     color:#5c001e ;
 }
+
+.free_trial:hover{
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px black;
+    border: 0;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
 /* #endregion PROVA GRATUITA */
 
 /* #region DOMANDE FREQUENTI */
@@ -697,6 +781,11 @@ h1{
     color: #C3C3C3;
 }
 
+.nav_foot:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 /* #endregion FOOTER */
 
@@ -709,7 +798,7 @@ h1{
 }
 
 .col-3_plus{
-    width: calc(100% / 12 * 3 + 8vh );
+    width: calc(100% / 12 * 3 + 6vh );
 }
 
 
